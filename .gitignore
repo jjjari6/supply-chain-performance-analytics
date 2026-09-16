@@ -1,0 +1,16 @@
+# Python virtual environment
+.venv/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Large raw/processed data
+data/raw/*.csv
+data/cleaned/*.csv
+
+# Local SQLite database
+data/*.db
+
+# Power BI temporary files
+*.tmp
